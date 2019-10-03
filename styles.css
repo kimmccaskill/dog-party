@@ -1,0 +1,133 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans";
+  margin: 0px;
+  font-weight: 400;
+}
+
+header {
+}
+
+nav {
+  background-color: #75e2e6;
+  margin: 0px;
+  border-bottom: 3px solid #048eaa;
+}
+
+#logo {
+  width: 65px;
+  height: 65px;
+  margin: 5px;
+}
+
+.navigation {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+  font-size: 22px;
+  padding: 5px;
+}
+
+.sectionOne {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), no-repeat center/100% url("./images/park.jpg");
+}
+
+h1 {
+  color: #FFFFFF;
+  padding: 30px;
+  font-size: 40px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.someDogs {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+#mainDog {
+  border: 5px solid #048eaa;
+  height: 250px;
+  border-radius:50%;
+  width: 250px;
+}
+
+form {
+  width: 530px;
+  margin: auto;
+
+}
+.formTitle {
+   margin-bottom: 0px;
+   float: left;
+   color: #FFFFFF;
+   font-size: 22px;
+ }
+.nameInput {
+  width: 530px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+
+.nameSubmit {
+  width: 530px;
+  height: 65px;
+  margin-bottom: 30px;
+  background-color: #75e2e6;
+  font-size: 22px;
+}
+
+.sectionTwo {
+  text-align: center;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+article {
+}
+
+h2 {
+  font-weight: 800;
+}
+
+.otherDogs {
+  display: inline-block;
+  width: 30%;
+
+}
+
+.dogButton {
+  height: 65px;
+  width: 420px;
+  background-color: #048eaa;
+}
+
+.textBox {
+  max-width: 420px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 450px;
+}
+
+.dogPic {
+  width: 250px;
+  height: 250px;
+  border-radius:50%;
+  border: 5px solid #048eaa;
+}
+
+footer {
+  height: 250px;
+  background-color: #75e2e6;
+  margin: 0px;
+}
