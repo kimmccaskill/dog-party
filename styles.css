@@ -11,9 +11,6 @@ body {
   font-weight: 400;
 }
 
-header {
-}
-
 nav {
   background-color: #75e2e6;
   margin: 0px;
@@ -105,15 +102,8 @@ h2 {
 .other-dogs {
   display: inline-block;
   width: 30%;
-  /* float: left; */
 
 }
-
-/* .otherDogs:after {
-  content: "";
-  clear: both;
-  display: table;
-} */
 
 .dog-button {
   height: 65px;
@@ -205,6 +195,5 @@ form {
   padding: 0px;
   font-size: 14px;
 }
-
 
 }
